@@ -86,7 +86,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': '', # database name in RDS is written here
-        'USER': '', # database master username in RDS is written here
+        'USER': 'admin', # database master username in RDS is written here
         'PASSWORD': config('PASSWORD'),
         'HOST': '',  # database endpoint is written here
         'PORT': '' # database port is written here
